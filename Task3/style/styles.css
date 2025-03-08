@@ -440,6 +440,7 @@ form .button .btn {
 footer {
   background-color: #161717;
   padding-top: 3rem;
+  width: 100%;
 }
 footer .container {
   /* margin-bottom: 10rem; */
@@ -494,6 +495,7 @@ footer .container .copyright p {
   }
   header {
     height: 7vh;
+    position: static;
   }
   header .container {
     flex-direction: column;
@@ -525,7 +527,7 @@ footer .container .copyright p {
     margin-top: 0;
   }
   .my-photo {
-    margin: 3rem 0 5rem;
+    margin: 5rem auto;
   }
   .my-photo::after {
     width: 350px;
@@ -550,7 +552,7 @@ footer .container .copyright p {
     border-radius: 100%;
     width: 350px;
     height: 350px;
-    margin-right: 0;
+    margin:5rem auto 0;
   }
   .my-photo-in-about img {
     height: 450px;
@@ -636,9 +638,11 @@ footer .container .copyright p {
 @media (min-width: 600px) and (max-width: 900px) {
   .container {
     width: 83%;
+    margin: auto;
   }
   header {
     height: fit-content;
+    position: static;
   }
   header .container {
     flex-direction: column;
@@ -671,8 +675,7 @@ footer .container .copyright p {
     margin-top: 0;
   }
   .my-photo {
-    margin-bottom: 5rem;
-    margin-right: 0rem;
+    margin: 10rem auto 5rem;
   }
   .title {
     justify-content: center;
@@ -680,8 +683,7 @@ footer .container .copyright p {
     margin: 5rem 0;
   }
   .my-photo-in-about {
-    margin-top: 10rem;
-    margin-right: 0rem;
+    margin:10rem auto 5rem;
   }
   #about .content {
     flex-direction: column;
